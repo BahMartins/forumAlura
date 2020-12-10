@@ -1,13 +1,17 @@
 package br.com.aulra.forum;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+
+
 @SpringBootTest
-class ForumApplicationTests {
+public class ForumApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
+		Assert.assertTrue(true);
 	}
 
 }
